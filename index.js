@@ -41,11 +41,12 @@ rl.on('line', (line) => {
     numToChar = numToChar.replace(/4/g, '3')
     a = parseInt(numToChar)
     b = origInput - a
-    console.log(`Case#${x}: ${a} ${b}`)
-    x++
+    console.log(`Case #${x}: ${a} ${b}`)
     if (x == input) {
+      rl.close()
       process.exit(0)
     }
+    x++
   } else {
     firstInput = true
     input = parseInt(line)
