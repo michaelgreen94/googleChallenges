@@ -3,8 +3,9 @@ const path = require('path')
 const http = require('http')
 const readline = require('readline');
 const rl = readline.createInterface(process.stdin, process.stdout);
+// const math = require('mathjs')
 
-const PORT = process.env.PORT || 5000
+// const PORT = process.env.PORT || 5000
 
 // let file = path.join(__dirname, 'hello.txt')
 
@@ -28,6 +29,11 @@ const PORT = process.env.PORT || 5000
 //   if (err) throw err;
 //   console.log('couldnt read ' + file, err)
 // })
+// math.config({
+//   number: 'BigNumber',
+//   precision: 1000
+// })
+
 
 let firstInput = false
 let input = 0
