@@ -14,7 +14,7 @@ const rl = readline.createInterface(process.stdin, process.stdout);
 //   let input = []
 //   for (let i = 1; i < Math.pow(10, 9); i++) {
 //     let number = i.toString()
-//     if (number.includes('4')) {
+//     if (number.includes('4')) { 
 //       input.push(parseInt(number))
 //     }
 //   }
